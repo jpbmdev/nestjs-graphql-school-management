@@ -4,7 +4,6 @@ import { CreateLessonInput } from './inputs/lesson.input';
 import { Repository } from 'typeorm';
 import { Lesson } from './lesson.entity';
 import { v4 as uudi } from 'uuid';
-import { STATUS_CODES } from 'http';
 
 @Injectable()
 export class LessonService {
