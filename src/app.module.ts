@@ -10,7 +10,7 @@ import { StudentModule } from './student/student.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mongodb',
-      url: 'mongodb+srv://testUser:testUser@cluster0.9pzaj.mongodb.net/nestjs-graphql-school-management?retryWrites=true&w=majority',
+      url: 'CHANGE',
       synchronize: true,
       useUnifiedTopology: true,
       entities: [Lesson, Student],
